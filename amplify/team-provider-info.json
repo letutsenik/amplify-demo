@@ -1,0 +1,42 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-amplify-auth-dev-194557-authRole",
+            "UnauthRoleArn": "arn:aws:iam::269490675865:role/amplify-amplify-auth-dev-194557-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::269490675865:role/amplify-amplify-auth-dev-194557-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplify-amplify-auth-dev-194557-deployment",
+            "UnauthRoleName": "amplify-amplify-auth-dev-194557-unauthRole",
+            "StackName": "amplify-amplify-auth-dev-194557",
+            "StackId": "arn:aws:cloudformation:eu-central-1:269490675865:stack/amplify-amplify-auth-dev-194557/7dd09f00-45db-11ea-a13f-0a75b60f3c60",
+            "AmplifyAppId": "d2fwiotqwfw3jm"
+        },
+        "categories": {
+            "auth": {
+                "amplifyauthc3e7cd96": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Google\",\"client_id\":\"362868095460-qvieb7e0ehpu5b8adtmkc7k0k5t4m3n2.apps.googleusercontent.com\",\"client_secret\":\"J7z5PxjPmhMWkAEAX0qQajwA\"}]"
+                }
+            }
+        }
+    },
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-amplify-auth-prod-200556-authRole",
+            "UnauthRoleArn": "arn:aws:iam::269490675865:role/amplify-amplify-auth-prod-200556-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::269490675865:role/amplify-amplify-auth-prod-200556-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplify-amplify-auth-prod-200556-deployment",
+            "UnauthRoleName": "amplify-amplify-auth-prod-200556-unauthRole",
+            "StackName": "amplify-amplify-auth-prod-200556",
+            "StackId": "arn:aws:cloudformation:eu-central-1:269490675865:stack/amplify-amplify-auth-prod-200556/48cbe640-45de-11ea-8274-0248d60dd6ec",
+            "AmplifyAppId": "d2fwiotqwfw3jm"
+        },
+        "categories": {
+            "auth": {
+                "amplifyauthc3e7cd96": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Google\",\"client_id\":\"362868095460-qvieb7e0ehpu5b8adtmkc7k0k5t4m3n2.apps.googleusercontent.com\",\"client_secret\":\"J7z5PxjPmhMWkAEAX0qQajwA\"}]"
+                }
+            }
+        }
+    }
+}
