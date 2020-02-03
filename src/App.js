@@ -38,14 +38,11 @@ function App() {
         </p>
         <button onClick={() => Auth.federatedSignIn()}>Sign In</button>
         <button
-          onClick={() => Auth.federatedSignIn({ provider: 'Facebook' })}
-        >Sign In with Facebook</button>
-
-        <button
           onClick={() => Auth.federatedSignIn({ provider: 'Google' })}
         >Sign In with Google</button>
         <button onClick={checkUser}>Check User</button>
         <button onClick={signOut}>Sign Out</button>
+        <button onClick={() => console.log('THING_NAME', process.env.THING_NAME)}>Click me</button>
       </header>
     </div>
   );
